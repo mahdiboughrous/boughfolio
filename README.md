@@ -1,4 +1,4 @@
-# Boughfolio - My Open-Source Next.js Portfolio
+# **Boughfolio** - Minimalistic Portfolio for Developers
 
 Welcome to Boughfolio, my personal corner on the web! Boughfolio is a simple and elegant Next.js portfolio template, crafted with love to showcase my journey, skills, and projects. As I believe in the spirit of open-source, I've decided to share this portfolio template with the community.
 
