@@ -58,8 +58,8 @@ export default function Home() {
       </div>
       <Social>
             <SocialItem onClick={()=> router.push(process.env.LINKEDIN || '')} icon="simple-icons:linkedin" width="40" />
-            <SocialItem onClick={()=> router.push(process.env.GITHUB || '')} icon="simple-icons:github" width="40" />
-            <SocialItem onClick={()=> router.push(process.env.X || '')} icon="simple-icons:x" width="40" />
+            <SocialItem onClick={()=> router.push(process.env.GITHUB_URL || '')} icon="simple-icons:github" width="40" />
+            <SocialItem onClick={()=> router.push(process.env.X_URL || '')} icon="simple-icons:x" width="40" />
           <SocialItem
             onClick={()=>handleCopyEmail()}
             icon="ic:baseline-email"
