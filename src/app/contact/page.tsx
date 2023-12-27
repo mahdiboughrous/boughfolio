@@ -67,7 +67,7 @@ const StyledForm = styled.form`
 `;
 export default function Contact() {
     const emailAccessKey = process.env.EMAIL_ACCESS_KEY;
-    const baseUrl = process.env.BASE_URL ;
+    const baseUrl = process.env.BASE_URL ? `${process.env.BASE_URL}/thanks` : 'http://localhost:3000/thanks';
 
   return (
     <Canva>
