@@ -2,7 +2,7 @@ import Link from "next/link";
 
 
 
-export const Thanks = () => {
+export default function Thanks() {
     return (
         <div>
         <h1>Thanks for your message!</h1>
