@@ -1,5 +1,5 @@
 "use client"
-import styled from "styled-components"
+import styled from "styled-components";
 import { Icon } from '@iconify/react';
 
 const Canva = styled.main`
@@ -140,7 +140,7 @@ export default function Home() {
       </Flex>
       <Bio>
       I specialize in creating stunning web apps and fast turnaround. 
-Let's work together for efficient and reliable results.
+Let&aposs work together for efficient and reliable results.
       </Bio>
       <CallToAction>
         Contact
