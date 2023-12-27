@@ -2,7 +2,7 @@ import Link from "next/link";
 
 
 
-export const ThanksPage = () => {
+export const Thanks = () => {
     return (
         <div>
         <h1>Thanks for your message!</h1>
