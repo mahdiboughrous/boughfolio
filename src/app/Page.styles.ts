@@ -39,7 +39,7 @@ const BottomBar = styled.div`
 `;
 const Name = styled.div`
   line-height: 0.8;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 900;
   font-color: #ffffff;
   @media (min-width: 768px) {
@@ -67,6 +67,8 @@ const Speaker = styled(Icon)`
   top: 1.5rem;
   left: 0.5rem;
   color: #f17e13;
+    width: 1.5rem;
+    height: 1.5rem;
   @media (min-width: 768px) {
     width: 1.8rem;
     height: 1.8rem;
@@ -83,6 +85,7 @@ const Banner = styled.div`
   justify-content: start;
   align-items: start;
   flex-direction: column;
+    padding: 1rem 1rem;
 
   @media (min-width: 768px) {
     max-width: 750px;

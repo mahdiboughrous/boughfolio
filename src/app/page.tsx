@@ -14,6 +14,7 @@ import {
   Speaker,
   Translation,
 } from "./Page.styles";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -22,12 +23,18 @@ export default function Home() {
   const handleCopyEmail = () => {
       navigator.clipboard.writeText(emailToCopy);
   };
+
+
+  const playAudio = () => {
+    const audio = new Audio("/audio/mahdiboughrous.mp3");
+    audio.play();
+  }
   
   return (
     <Canva>
       <Flex>
         <Banner>
-          <Name>
+          <Name onClick={playAudio}>
             Mahdi <br /> Boughrous
             <Speaker icon="fluent:speaker-2-16-filled" width={"40"} />
           </Name>
@@ -45,13 +52,19 @@ export default function Home() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          gap: "35px",
         }}
       >
+        <Image
+          src="/images/mahdiboughrous.png"
+          alt="Mahdi Boughrous profile picture"
+          width={220}
+          height={200}
+        />
         <Bio>
           I specialize in creating stunning web apps and fast turnaround.
           Let&apos;s work together for efficient and reliable results.
         </Bio>
+        <span style={{margin: "9px"}}></span>
         <CallToAction onClick={() => router.push("/contact")}>
           Contact
         </CallToAction>
