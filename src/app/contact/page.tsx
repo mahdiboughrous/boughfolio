@@ -67,14 +67,14 @@ const StyledForm = styled.form`
 `;
 export default function Contact() {
     const emailAccessKey = process.env.EMAIL_ACCESS_KEY;
-    const baseUrl = process.env.BASE_URL || '';
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL as string;
 
   return (
     <Canva>
       <StyledForm action="https://api.web3forms.com/submit" method="POST">
 
       <input type="hidden" name="access_key" value={emailAccessKey} />
-      <input type="hidden" name="redirect" value={baseUrl}/>
+      <input type="hidden" name="redirect" value={baseUrl + '/thanks'}/>
 
       <label htmlFor="name">Name:</label>
       <input type="text" id="name" name="name" required />

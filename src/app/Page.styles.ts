@@ -85,16 +85,6 @@ const Banner = styled.div`
   justify-content: start;
   align-items: start;
   flex-direction: column;
-    padding: 1rem 1rem;
-
-  @media (min-width: 768px) {
-    max-width: 750px;
-    padding: 2rem 8rem;
-  }
-  @media (min-width: 1024px) {
-    max-width: 750px;
-    padding: 3rem 8rem;
-  }
 `;
 
 const Translation = styled.div`
@@ -110,8 +100,16 @@ const Translation = styled.div`
 `;
 const Flex = styled.div`
   width: 100%;
+  padding-top: 1rem;
   display: flex;
   justify-content: space-between;
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media (min-width: 1024px) {
+     max-width: 1024px;
+  }
 `;
 
 const Social = styled.div`
