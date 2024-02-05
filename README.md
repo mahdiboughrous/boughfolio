@@ -22,6 +22,6 @@ While this is my personal portfolio, I welcome contributions, suggestions, and f
 
 ## License:
 
-Boughfolio is released under the [MIT License](link-to-license). Use it, modify it, and make it your own. Share the love!
+Boughfolio is released under the [MIT License](https://github.com/mahdiboughrous/boughfolio/blob/main/LICENSE). Use it, modify it, and make it your own. Share the love!
 
 Thank you for visiting Boughfolio. Take a stroll through my projects, explore my skills, and get to know me a little better. Let's connect and build something amazing!
