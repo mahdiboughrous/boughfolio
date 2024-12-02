@@ -4,6 +4,7 @@ Welcome to Boughfolio, my personal corner on the web! Boughfolio is a simple and
 
 ## Why Boughfolio:
 
+
 - **Simplicity at Its Best:** Boughfolio keeps things simple and straightforward. No unnecessary bells and whistles, just a clean canvas for your story.
 
 - **Crafted with Next.js:** Powered by Next.js, Boughfolio embraces the magic of React and server-side rendering for a smooth and efficient browsing experience.
