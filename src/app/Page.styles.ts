@@ -40,13 +40,13 @@ const BottomBar = styled.div`
 const Name = styled.div`
   line-height: 0.8;
   font-size: 3rem;
-  font-weight: 900;
+  font-weight: 600;
   font-color: #ffffff;
   @media (min-width: 768px) {
     font-size: 3rem;
   }
   @media (min-width: 1024px) {
-    font-size: 4rem;
+    font-size: 3.4rem;
   }
 `;
 
@@ -100,8 +100,9 @@ const Translation = styled.div`
 `;
 const Flex = styled.div`
   width: 100%;
-  padding-top: 1rem;
   display: flex;
+  padding-top: 1.4rem;
+  padding-left: 1.5rem;
   justify-content: space-between;
 
   @media (min-width: 768px) {
@@ -109,6 +110,7 @@ const Flex = styled.div`
   }
   @media (min-width: 1024px) {
      max-width: 1024px;
+     padding-top: 3rem;
   }
 `;
 
@@ -123,9 +125,11 @@ const Bio = styled.div`
   text-align: center;
   font-size: 1rem;
   font-weight: 700;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
 
   @media (min-width: 768px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   @media (min-width: 1024px) {
     font-size: 1.5rem;

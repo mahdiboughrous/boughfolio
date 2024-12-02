@@ -25,9 +25,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      showguides="true"
-     inkscape:zoom="1.0406414"
-     inkscape:cx="32.191685"
-     inkscape:cy="87.926542"
+     inkscape:zoom="0.5203207"
+     inkscape:cx="83.602286"
+     inkscape:cy="579.45033"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -35,92 +35,92 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2">
     <sodipodi:guide
-       position="108.04903,99.820217"
+       position="108.04903,99.820219"
        orientation="0,-1"
        id="guide184"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="49.619854,0.041162175"
+       position="49.619854,0.041162938"
        orientation="0,-1"
        id="guide188"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="0,83.639831"
+       position="0,83.639832"
        orientation="1,0"
        id="guide190"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="99.958837,49.840799"
+       position="99.958838,49.8408"
        orientation="1,0"
        id="guide192"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="11.326271,94.999999"
+       position="11.326271,95"
        orientation="0,1"
        id="guide194"
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,134,229)" />
     <sodipodi:guide
-       position="-65.62046,5"
+       position="-65.620461,5.0000008"
        orientation="0,1"
        id="guide196"
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,134,229)" />
     <sodipodi:guide
-       position="5,99.820217"
+       position="5,99.820219"
        orientation="-1,0"
        id="guide198"
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,134,229)" />
     <sodipodi:guide
-       position="94.999999,45.463322"
+       position="95,45.463323"
        orientation="-1,0"
        id="guide200"
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,134,229)" />
     <sodipodi:guide
-       position="50,94.999999"
+       position="50,95"
        orientation="0.70710678,-0.70710678"
        id="guide2"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="50,5"
+       position="50,5.0000008"
        orientation="0.70710678,-0.70710678"
        id="guide3"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="50,94.999999"
+       position="50,95"
        orientation="-0.70710678,-0.70710678"
        id="guide4"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="5,94.999999"
+       position="5,95"
        orientation="-0.70710678,-0.70710678"
        id="guide5"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="50,5"
+       position="50,5.0000008"
        orientation="-0.70710678,-0.70710678"
        id="guide6"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="94.999999,94.999999"
+       position="95,95"
        orientation="0.70710678,-0.70710678"
        id="guide7"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="50,99.820217"
+       position="50,99.820219"
        orientation="-1,0"
        id="guide12"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(0,134,229)" />
     <sodipodi:guide
-       position="11.326271,50"
+       position="11.326271,50.000001"
        orientation="0,1"
        id="guide13"
        inkscape:label=""
@@ -230,7 +230,7 @@
        cy="7.1509714"
        r="43.188011"
        clip-path="url(#clipPath11)"
-       transform="translate(0.38014641,-0.33898296)" />
+       transform="matrix(1.6151605,0,0,1.6151605,-30.26728,-31.471426)" />
     <circle
        style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
        id="circle1"
@@ -238,7 +238,7 @@
        cy="50.338982"
        r="43.188011"
        clip-path="url(#clipPath10)"
-       transform="translate(0.38014259,-0.33898201)" />
+       transform="matrix(1.6151605,0,0,1.6151605,-30.267287,-31.471425)" />
     <circle
        style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
        id="circle2"
@@ -246,7 +246,7 @@
        cy="93.526993"
        r="43.188011"
        clip-path="url(#clipPath9)"
-       transform="translate(0.38014641,-0.33898201)" />
+       transform="matrix(1.6151605,0,0,1.6151605,-30.26728,-31.471425)" />
     <circle
        style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
        id="circle7"
@@ -254,6 +254,6 @@
        cy="49.799637"
        r="43.188011"
        clip-path="url(#clipPath8)"
-       transform="translate(0.02058115,0.20036278)" />
+       transform="matrix(1.6151605,0,0,1.6151605,-30.848036,-30.600297)" />
   </g>
 </svg>
