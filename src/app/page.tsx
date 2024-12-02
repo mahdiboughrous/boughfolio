@@ -135,7 +135,7 @@ export default function Home() {
       <Social>
         <SocialItem onClick={() => router.push(process.env.NEXT_PUBLIC_LINKEDIN as string)} icon="simple-icons:linkedin" width="40" />
         <SocialItem onClick={() => router.push(process.env.NEXT_PUBLIC_GITHUB_URL as string)} icon="simple-icons:github" width="40" />
-        <SocialItem onClick={() => router.push(process.env.NEXT_PUBLIC_X_URL as string)} icon="simple-icons:x" width="40" />
+        {/* <SocialItem onClick={() => router.push(process.env.NEXT_PUBLIC_X_URL as string)} icon="simple-icons:x" width="40" /> */}
         <SocialItem
           onClick={() => handleCopyEmail()}
           icon="ic:baseline-email"
