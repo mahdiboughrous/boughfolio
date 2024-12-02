@@ -2,10 +2,11 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import StyledComponentsRegistry from '@/lib/registry'
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
-const inter = Inter({ 
-  weight: ["400", "700","800", "900"],
-  subsets: ['latin'] 
+const inter = Inter({
+  weight: ["400", "700", "800", "900"],
+  subsets: ['latin']
 })
 
 export const metadata: Metadata = {
@@ -22,6 +23,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <SpeedInsights />
+
       </body>
     </html>
   )
